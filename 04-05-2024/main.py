@@ -15,13 +15,13 @@ def parse_wordpress_posts(posts, my_csv_file):
             writer = csv.writer(csvfile)
             writer.writerow(['Title', 'Content', 'Date', 'Author', 'URL'])
             for post in posts:
-                print("Title", post['title'])
-                print("Content", post['content'])
+                print("Title", post['title']['rendered'])
+                print("Content", post['content']['rendered'])
                 print("Date", post['date'])
                 print("Author", post['author'])
                 print("Post URL: ", post['link'])
-                title = post['title']
-                content = post['content']
+                title = post['title']['rendered']
+                content = post['content']['rendered']
                 date = post['date']
                 author = post['author']
                 post_url = post['link']
