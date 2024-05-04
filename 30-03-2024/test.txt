@@ -1,0 +1,6 @@
+This is a newly added line3
+This is a newly added line4
+
+This is a new line added using append method
+This is a new line added using append method
+This is a new line2 added using append method
