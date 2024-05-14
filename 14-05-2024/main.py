@@ -43,6 +43,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+#implement error handling (try,catch,except method)
+#store all the fetched data to a csv
+#add another parameter to the url and get the news e.g. sort by or date or etc.
+#https://newsapi.org/v2/everything?q=tesla&from=2024-04-14&sortBy=publishedAt&apiKey=
         
 
 
